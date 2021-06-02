@@ -1,9 +1,14 @@
-﻿table, p {
-	font-family: verdana;
-	font-size: 5 px;
-	text-align: center;
-	}	
+article, aside, footer, header, main, nav, section {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
 
-body {
-	background-color: LightGray;
+html, body, h1, h2, h3, ul, li, a, p {
+	margin: 0px;
+	padding: 0px;
+}
+
+li{
+	display: inline;
 }
