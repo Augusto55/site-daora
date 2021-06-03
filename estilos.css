@@ -3,24 +3,103 @@ article, aside, footer, header, main, nav, section {
 	margin: 0px;
 	padding: 0px;
 	font-family: sans-serif;
+	color:white;
 }
 
 html, body, h1, h2, h3, ul, li, a, p {
 	margin: 0px;
 	padding: 0px;
 	font-family: sans-serif;
+	color: white;
+}
+
+nav {
+	background-color: #3c3c3c;
+	padding: 15px;
+	margin-top: : 5px;
+	margin-bottom: 5px
 }
 
 li{
 	display: inline;
+	font-weight: bold;
+	margin-left: 15px;
+	margin-right: 15px;
+
 }
 
 .banner{
-	background-color: #585f61;
+	background-color: #424444;
 	color:white;
-	padding: 10px 20px;
+	padding: 20px 30px;
+	margin-bottom: 10px;
 }
 
 body{
+	background-color: #171717;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 15px;
+}
+
+main {
+	width: 900px;
+	float: left;
+	margin-bottom: 10px
+}
+
+div p{
+	font-size: 25px;
+  padding: 40px;
+	text-align: justify;
+	background-color: #373838;
+	margin-bottom: 20px;
+	margin-top: 0px
+}
+
+div h1 {
+	background-color: #373838;
+	padding: 30px;
+	margin-bottom: 0px;
+	margin-top: 0px
+}
+
+li a{
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+a {
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	background-color: white;
+	padding: 0px
+}
+
+aside{
+	background-color: white;
+	color: black;
+	float: right;
+	padding: 20px;
+	font-size: 12px;
+	width: 48px;
+	height: 300px;
+
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	margin-left: 300px;
+	margin-right: 300px;
 	background-color: #424444;
+	color: white;
+	padding: 10px;
 }
