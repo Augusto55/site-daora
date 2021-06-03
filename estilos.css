@@ -2,13 +2,25 @@ article, aside, footer, header, main, nav, section {
 	display: block;
 	margin: 0px;
 	padding: 0px;
+	font-family: sans-serif;
 }
 
 html, body, h1, h2, h3, ul, li, a, p {
 	margin: 0px;
 	padding: 0px;
+	font-family: sans-serif;
 }
 
 li{
 	display: inline;
+}
+
+.banner{
+	background-color: #585f61;
+	color:white;
+	padding: 10px 20px;
+}
+
+body{
+	background-color: #424444;
 }
