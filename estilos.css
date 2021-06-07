@@ -13,6 +13,12 @@ html, body, h1, h2, h3, ul, li, a, p {
 	color: white;
 }
 
+body{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 nav {
 	background-color: #3c3c3c;
 	padding: 15px;
@@ -37,25 +43,27 @@ li{
 
 body{
 	background-color: #171717;
-	width: 1000px;
+	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 15px;
 }
 
 main {
-	width: 900px;
+	width: 1000px;
 	float: left;
 	margin-bottom: 10px
 }
 
 div p{
+	width: 880px;
 	font-size: 25px;
   padding: 40px;
 	text-align: justify;
 	background-color: #373838;
 	margin-bottom: 20px;
-	margin-top: 0px
+	margin-top: 0px;
+	margin-right: 0px;
 }
 
 div h1 {
@@ -87,10 +95,12 @@ aside{
 	background-color: white;
 	color: black;
 	float: right;
-	padding: 20px;
+	padding: 10px;
 	font-size: 12px;
-	width: 48px;
-	height: 300px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 200px;
+	height: 200px;
 
 }
 
@@ -102,4 +112,8 @@ footer {
 	background-color: #424444;
 	color: white;
 	padding: 10px;
+}
+
+form {
+	color: black;
 }
