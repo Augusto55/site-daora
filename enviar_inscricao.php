@@ -11,6 +11,10 @@
   $destino = "168244@upf.br";
   mail($destino, $assunto, $fala);
 
+  $fp = fopen("dados.csv", "a+");
+  $escreve = fwrite($fp, "\n$fala;$email;$nome;$sexo");
+  fclose($fp);
+
 
   echo "<script type='text/javascript'>alert('Recebemos sua inscrição') </script>";
 
