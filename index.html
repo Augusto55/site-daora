@@ -22,7 +22,17 @@
 		}
 
 		function formatarNascimento() {
-
+			var nasc_informado = inscricao.nasc.value;
+			var nro_barras = nasc_informado.split("/").length - 1;
+			while (nro_barras != 0) {
+				nasc_informado = nasc_informado.replace("/", "");
+				var nro_barras = nasc_informado.split("/").length - 1;
+			}
+			dia = nasc_informado.substring(0,2);
+			mes = nasc_informado.substring(2,4);
+			ano = nasc_informado.substring(4,8);
+			var nasc_novo_valor = dia + "/" + mes + "/" + ano;
+			inscricao.nasc.value = nasc_novo_valor
 		}
 	</script>
 
@@ -84,21 +94,27 @@
 
 <aside>
 	<article>
-		<form name="inscricao" action="submeter_inscricao.php" method="post" onsubmit="return verificarEmail">
+		<form name="inscricao" action="enviar_inscricao.php" method="post" onsubmit="return verificarEmail()">
 			Nome: <input class="form_input_text" type="text" name="name" id="nome" required placeholder="comando vermelho"> <br>
 			Email: <input class="form_input_text" type="text" name="email" id="email" required placeholder="bota o email ae"> <br>
-			Nasc: <input class="form_input_text" type="text" name="nasc" id="nasc" required placeholder="dd/mm/aaaa"> <br>
+			Nasc: <input class="form_input_text" type="text" name="nasc" id="nasc" required placeholder="dd/mm/aaaa" onchange="formatarNascimento()"> <br>
 			Sexo:<br>
 				<input type="radio" name="sexo" id="sexo" value="Sim"> Sim <br>
 				<input type="radio" name="sexo" id="sexo" value="Não"> Não <br>
 				<input type="radio" name="sexo" id="sexo" value="sexoooo"> sexoooo <br>
+		  Fala ae:<br>
+				<textarea name="fala ae" rows="5" cols="27" id="fala ae" placeholder="fala">
+				</textarea> <br><br>
+				<input class="form_button" type="submit" value="enviar">
+				<input class="form_button" type="reset" value="limpar">
 		</form>
-
 	</article>
 </aside>
 
 
 
+	<br><br><br><br>
+	<br><br><br><br>
 	<br><br><br><br>
 	<br><br><br><br>
 	<br><br><br><br>
