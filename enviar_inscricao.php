@@ -3,7 +3,7 @@
   $fala = htmlspecialchars($_POST['fala ae']);
   $email = htmlspecialchars($_POST['email']);
   $nome = htmlspecialchars($_POST['nome']);
-  $sexo = htmlspecialchars($_POST['sexo'])
+  $sexo = htmlspecialchars($_POST['sexo']);
 
 
 
