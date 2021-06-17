@@ -70,6 +70,11 @@ div h1 {
 	text-align: left;
 }
 
+.formulario {
+	text-align: center;
+	color: white;
+	margin-bottom: 120px;
+}
 
 li a{
 	color: white;
@@ -160,6 +165,7 @@ form {
 
 /* Caption text */
 .text {
+	background-color: #171717;
   color: #f2f2f2;
   font-size: 15px;
   padding: 8px 12px;
