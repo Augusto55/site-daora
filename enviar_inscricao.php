@@ -5,6 +5,8 @@
   $nome = htmlspecialchars($_POST['nome']);
   $sexo = htmlspecialchars($_POST['sexo']);
 
+  if
+
 
 
   $assunto = "O que o cara vai falar na área do site";
