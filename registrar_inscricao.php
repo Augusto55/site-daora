@@ -2,11 +2,8 @@
 
 $nome = htmlspecialchars($_POST['nome']);
 $email = htmlspecialchars($_POST['email']);
-$nasc = htmlspecialchars($_POST['nasc']);
-$sexo = htmlspecialchars($_POST['sexo']);
 
-
-$nova_linha = "" . $nome . "," . $email . "," . $nasc . "," . $sexo . "\n";
+$nova_linha = "" . $nome . "," . $email .  "\n";
 
 $arquivo = fopen('./registros.csv', 'a');
 if ($arquivo) {
