@@ -2,14 +2,14 @@ article, aside, footer, header, main, nav, section {
 	display: block;
 	margin: 0px;
 	padding: 0px;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color:white;
 }
 
 html, body, h1, h2, h3, ul, li, a, p {
 	margin: 0px;
 	padding: 0px;
-	font-family: sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: white;
 }
 
@@ -46,39 +46,50 @@ body{
 
 main {
 	width: 1000px;
-	float: left;
-	margin-bottom: 10px
+	margin-bottom: 10px;
 }
 
-div p{
-	width: 800px;
-	font-size: 25px;
-  padding: 40px;
-	text-align: justify;
+.populares {
+	position: relative;
+	left: 100px;
+	color: white;
+	width: 100px;
+	top: 8px;
 	background-color: #373838;
-	margin-bottom: 20px;
-	margin-top: 0px;
-	margin-right: 0px;
+	padding: 10px;
 }
 
-div h1 {
+.corpo {
+	width: 800px;
+	height: 500px;
+	font-size: 25px;
+	padding: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #373838;
+}
+
+div a h1 {
+	text-align: left;
 	background-color: #373838;
 	padding: 20px;
 	margin-bottom: 0px;
 	margin-top: 1px;
 	font-size: 20px;
-	text-align: left;
 }
 
 .texto_form {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 10px 15px 10px;
+	width: 600px;
 	text-align: center;
 	color: white;
-	font-size: 20px;
+	margin-bottom: 100px;
+	font-size: 16px;
+	background-color: #373838;
 }
 
-.formulario {
-	margin-bottom: 100px;
-}
 
 .form_input_text {
 	margin-bottom: 10px;
@@ -118,21 +129,13 @@ a:hover {
 	padding: 10px;
 }
 
-aside{
-	background-color: white;
-	color: black;
-	float: right;
-	padding: 10px;
-	font-size: 12px;
-	width: 280px;
-	height: 290px;
 
-}
 
 footer {
-	text-align: left;
+	text-align: justify;
 	width: 22%;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 	background-color: #424444;
 	color: white;
 	padding: 20px;
@@ -210,7 +213,8 @@ form {
 .sub_text {
 	position: absolute;
 	left: 68%;
-	top: 58px;
+	bottom: 20px;
+	margin-top: 10px;
 	width: 22%;
 	padding-top: 20px;
 	padding-bottom: 20px;
