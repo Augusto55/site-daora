@@ -46,6 +46,13 @@ body{
 	font-size: 15px;
 }
 
+.material-icons {
+	position: relative;
+	top:-78px;
+	left: 160px;
+}
+
+
 main {
 	width: 1000px;
 	margin-bottom: 10px;
