@@ -207,7 +207,7 @@ form {
 
 /* Hide the images by default */
 .mySlides {
-	display: block;
+	display: none;
 }
 
 

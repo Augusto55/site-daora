@@ -214,6 +214,31 @@ form {
 	display: block;
 }
 
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
 
 /* Next & previous buttons */
 .prev, .next {
@@ -233,7 +258,7 @@ form {
 
 /* Position the "next button" to the right */
 .next {
-  right: 170px;
+  right: 184px;
   border-radius: 3px 0 0 3px;
 }
 
