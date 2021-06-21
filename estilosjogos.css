@@ -194,6 +194,8 @@ form {
 
 .fundo_corpo {
 	background-color: #111111;
+	height: 600px;
+	padding: 25px 20px 20px 18px;
 }
 
 /*  Css do slideshow */
@@ -210,9 +212,6 @@ form {
 /* Hide the images by default */
 .mySlides {
 	display: block;
-	border-style: solid;
-	border-color: #000000;
-
 }
 
 
@@ -234,8 +233,12 @@ form {
 
 /* Position the "next button" to the right */
 .next {
-  right: 150px;
+  right: 170px;
   border-radius: 3px 0 0 3px;
+}
+
+.prev {
+	left:182px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -279,6 +282,7 @@ form {
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
+	left: 220px;
   top: 0;
 }
 
