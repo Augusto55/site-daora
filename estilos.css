@@ -122,6 +122,12 @@ div a h1 {
 	font-weight: bold;
 }
 
+.game_name {
+	text-align: left;
+	font-size: 30px;
+	font-weight: bold
+}
+
 li a{
 	color: white;
 	font-size: 18px;
@@ -196,7 +202,7 @@ form {
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: auto
 }
 
 /* Hide the images by default */
