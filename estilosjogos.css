@@ -41,6 +41,7 @@ body{
 	/*background-color: #171717;*/
 	background-image: linear-gradient(to bottom, #171717, #363535);
 	width: 1000px;
+	height: 1500px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 15px;
@@ -211,7 +212,7 @@ form {
 
 /* Hide the images by default */
 .mySlides {
-	display: block;
+	display: none;
 }
 
 /* Add a pointer when hovering over the thumbnail images */

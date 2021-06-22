@@ -7,6 +7,7 @@
 	<link rel="shortcut icon" href="favicon.ico">
 	<link rel="stylesheet" href="estilos.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="teste.css">
 	<style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 </style>
@@ -16,24 +17,10 @@
  <!-- Funções do javascript para verificar formatação do email-->
 	<script type="text/javascript">
 
-		function verificarEmail() {
-			var email_informado = inscricao.email.value;
-			var indice = email_informado.search("@")
-			if (indice == -1) {
-				alert("Por favor, informe um email válido");
-				return false;
-			}
-			else {
-				return true;
-			}
-		}
-
-
+		var slideIndex = 1;
+	showSlides(slideIndex);
 
 		/* Javascript do slideshow */
-
-		var slideIndex = 1;
-		showSlides(slideIndex);
 
 		// Next/previous controls
 		function plusSlides(n) {
@@ -61,6 +48,17 @@
 		  dots[slideIndex-1].className += " active";
 		}
 
+		function verificarEmail() {
+			var email_informado = inscricao.email.value;
+			var indice = email_informado.search("@")
+			if (indice == -1) {
+				alert("Por favor, informe um email válido");
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
 
 
 	</script>
@@ -110,9 +108,9 @@
 <div class="slideshow-container">
 
   <!-- Full-width images with number and caption text -->
-  <div align="center" class="mySlides fade">
+  <div style="display: block" align="center" class="mySlides fade">
     <div class="numbertext">1 / 3</div>
-    <img src="https://s2.glbimg.com/yGbOx5BMsr4UaCfGCT3PYyXvEhg=/0x0:1300x681/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/O/K/l57RCsTj6JZVO8m1P1sQ/captura-de-tela-2020-06-12-as-01.17.38.png"
+    <img class=" active" src="https://s2.glbimg.com/yGbOx5BMsr4UaCfGCT3PYyXvEhg=/0x0:1300x681/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/O/K/l57RCsTj6JZVO8m1P1sQ/captura-de-tela-2020-06-12-as-01.17.38.png"
 			width="80%" height="80%">
     <div class="text">RESIDENT EVIL VILLAGE</div>
 		<div class="sub_text">Mais vendido!</div>
