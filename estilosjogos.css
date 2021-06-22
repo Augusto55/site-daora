@@ -41,7 +41,7 @@ body{
 	/*background-color: #171717;*/
 	background-image: linear-gradient(to bottom, #171717, #363535);
 	width: 1000px;
-	height: 1600px;
+	height: 1700px;
 	margin-left: auto;
 	margin-right: auto;
 	font-size: 15px;
@@ -129,6 +129,15 @@ div a h1 {
 	font-weight: bold
 }
 
+.descrição {
+	text-align: justify;
+	width: 300px;
+	float: right;
+	color: white;
+	font-size: 15px;
+}
+
+
 li a{
 	color: white;
 	font-size: 18px;
@@ -150,6 +159,7 @@ nav ul li a:hover {
 
 
 footer {
+	clear: both;
 	text-align: justify;
 	width: 22%;
 	margin-left: auto;
@@ -164,6 +174,15 @@ footer {
 form {
 	color: black;
 }
+
+.cor_fundo {
+	background-color: #0d0d0d;
+	width: 600px;
+	height: 440px;
+	padding: 30px 0px 40px 15px;
+	margin-right: 600px;
+}
+
 
 .corpo {
 	padding: 20px 8px 8px 8px;
@@ -182,7 +201,7 @@ form {
 .box_sub {
 	text-indent: 170px;
 	text-align: left;
-	position: relative;
+	position: absolute;
 	top: -55px;
 	height: -0px;
 	margin-top: -6px;
@@ -195,7 +214,7 @@ form {
 
 .fundo_corpo {
 	background-color: #111111;
-	height: 600px;
+	height: 650px;
 	padding: 25px 20px 20px 18px;
 }
 
@@ -206,6 +225,7 @@ form {
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
+	bottom: 410px;
   position: relative;
   margin-left: -200px;
 }
@@ -219,6 +239,7 @@ form {
 .cursor {
   cursor: pointer;
 }
+
 
 /* Container for image text */
 .caption-container {
@@ -234,13 +255,17 @@ form {
   clear: both;
 }
 
+
 /* Six columns side by side */
 .column {
+	position: relative;
+	top: -400px;
   float: left;
   width: 16.66%;
 	margin-left: 24px;
 	margin-right: -70px;
 }
+
 
 
 /* Next & previous buttons */
