@@ -131,10 +131,13 @@ div a h1 {
 
 .descrição {
 	text-align: justify;
-	width: 300px;
+	width: 280px;
 	float: right;
 	color: white;
 	font-size: 15px;
+	position: relative;
+	right: -100px;
+	top: -160px;
 }
 
 
@@ -261,8 +264,9 @@ form {
 	position: relative;
 	top: -400px;
   float: left;
-  width: 16.66%;
-	margin-left: 24px;
+  width: 16%;
+	left: 20px;
+	margin-left: 20px;
 	margin-right: -70px;
 }
 
