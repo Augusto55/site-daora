@@ -90,10 +90,10 @@ div a h1 {
 }
 
 .texto_form {
-	margin-left: auto;
-	margin-right: auto;
-	padding: 15px 10px 15px 10px;
+	position: relative;
+	padding: 15px 10px 15px 45px;
 	width: 600px;
+	left: 210px;
 	text-align: center;
 	color: white;
 	margin-bottom: 100px;
@@ -103,7 +103,8 @@ div a h1 {
 }
 
 .avalie {
-	font-size: 20px;
+	font-size: 18px;
+	text-align: center;
 }
 
 .form_input_text {
@@ -145,14 +146,14 @@ div a h1 {
 
 .game_name_comprar {
 	position: relative;
-	bottom: 760px;
+	bottom: 140px;
 	font-size: 22px;
-	padding-left: 10px;
+	padding-left: 30px;
 }
 
 .comprar {
 	position: relative;
-	bottom: 805px;
+	bottom: 190px;
 	left: 330px;
 	color: black;
 	background-color: white;
@@ -164,6 +165,24 @@ div a h1 {
 	width: 28%;
 	font-weight: bold;
 	font-size: 20px;
+}
+
+.form_button_rating {
+	width: 80px;
+	background-color: white;
+	color: #171717;
+	padding: 10px 0px 10px 0px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.dropdown {
+	font-weight: bolder;
+	font-size: 25px;
+	padding: 5px 14px 5px 14px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-bottom: -30px;
 }
 
 li a {
