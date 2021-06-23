@@ -6,5 +6,5 @@ $media = 1;
 
 $media = ($numero + $media)/$bsubmit;
 
-include(G_ggs.html);
+include();
 ?>

@@ -14,6 +14,6 @@ if ($arquivo) {
 else {
   echo "<script type='text/javascript'>alert('Erro na inscrição. Tente novamente ". $nome . "!');</script>";
 }
-
+include()
 
  ?>
