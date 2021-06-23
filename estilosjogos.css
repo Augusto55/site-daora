@@ -96,7 +96,7 @@ div a h1 {
 	left: 210px;
 	text-align: center;
 	color: white;
-	margin-bottom: 100px;
+	margin-bottom: -300px;
 	font-size: 16px;
 	background-color: #373838;
 	box-shadow: 2px 2px 20px #242424;
@@ -169,6 +169,7 @@ div a h1 {
 
 .form_button_rating {
 	width: 80px;
+	border-radius: 5px;
 	background-color: white;
 	color: #171717;
 	padding: 10px 0px 10px 0px;
@@ -214,7 +215,7 @@ footer {
 	background-color: #424444;
 	color: white;
 	padding: 20px;
-	margin-bottom: 10px;
+	margin-top: -200px;
 	box-shadow: 2px 2px 20px #242424;
 }
 
