@@ -1,65 +1,131 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
 	<!-- Nome da guia e favicon -->
-	<title> Loja </title>  
+	<title> Ação </title>
 	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+</style>
+
+
+
+ <!-- Funções do javascript para verificar formatação do email-->
+	<script type="text/javascript">
+
+
+		function verificarEmail() {
+			var email_informado = inscricao.email.value;
+			var indice = email_informado.search("@")
+			if (indice == -1) {
+				alert("Por favor, informe um email válido");
+				return false;
+			}
+			else {
+				return true;
+			}
+		}
+
+
+	</script>
+
 </head>
 
-<body width="960 px" leftmargin="100" rightmargin="100" >
-	
-	
+<body>
+
 	<!-- Ponto de referência da âncora "topo" -->
 	<a name="topo"></a>
-	
-	<!-- Tabela -->
-	
-	<table border="2" width="50%" align="center">
-		<tr align="center">
-            <td> <a target_="blank" href="aventura.html">  Aventura  </a> </td>
-            <td> <a target_="blank" href="acao.html"> Ação  </a> </td>
-            <td> <a target_="blank" href="estrategia.html"> Estratégia </a> </td>
-			<td> <a target_="blank" href="corrida.html"> Corrida  </a> </td>
-			<td> <a target_="blank" href="esportes.html"> Esportes </a> </td>
-        </tr>
-	
-		
-	</table>
 
-	<br><br>
-	
+	<header class="banner">
+		<h1 align="center"> Augusto's Store </h1>
+	</header>
+
+
+
+	<!-- Tabela -->
+
+	<nav align="center">
+		<ul align="center">
+      	<li> <a target_="blank" href="aventura.html">  Aventura  </a> </li>
+      	<li> <a target_="blank" href="acao.html"> Ação  </a> </li>
+      	<li> <a target_="blank" href="estrategia.html"> Estratégia </a> </li>
+				<li> <a target_="blank" href="corrida.html"> Corrida  </a> </li>
+				<li> <a target_="blank" href="esportes.html"> Esportes </a> </li>
+		</ul>
+        </nav>
+
+<br>
+
 	<!-- Título -->
-	<h1 align="center"> Ação </h1>
+	<div>
+		<a target_="blank" href="index.html">
+			<h1 align="center"> Página inicial </h1>
+			<i class="material-icons">house</i>
+			<i class="fas fa-clock" style="font-size:60px"></i>
+		</a>
+	</div>
+
 	<br><br><br><br>
-	
+
+
+
+  <main>
 	<!-- Texto principal -->
-	<p style="text-indent:30px"> 
-	<font size="5">
-	Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação 
-	Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação 
-	Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação 
-	Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação Ação 
-	
-	</font>
-	</p>
-	
+
+
+	<div class="titulo"> Ação </div>
+	<br><br>
+	<div class="corpo">
+		<div class="box">
+			<img src="https://image.api.playstation.com/vulcan/img/rnd/202101/2010/BbUdRzKqfrRRdleEjJxDAdGG.jpg"
+			 height="18%" width="18%">
+			<div class="box_sub">Guilty Gear Strive</div>
+		</div>
+
+		<div class="breve">Mais jogos em breve . . .</div>
+
+
+
+	</div>
+</main>
+
+
+
+
 	<br><br><br><br>
 	<br><br><br><br>
 	<br><br><br><br>
-	<br><br><br><br>
-	<br><br><br><br>
-	<br><br><br><br>
-	
-	
+
+
+
+
+	<div>
+		<article align="center" class="texto_form">
+			Preencha seu nome e e-mail para receber as atualizações e promoções! <br><br>
+			<form  class="formulario" name="inscricao" action="registrar_inscricao.php" method="post" onsubmit="return verificarEmail()">
+				  <br><input class="form_input_text" type="text" name="name" id="nome" required placeholder="Nome">
+				  <br><input class="form_input_text" type="text" name="email" id="email" required placeholder="E-mail"> <br>
+					<input class="form_button" type="submit" value="Enviar">
+			</form>
+		</article>
+	</div>
+
+
+
+
+
 	<!-- Âncora "voltar para o topo" -->
-	<a href="#topo" align="center"> 
+<footer align="center">
+	<a href="#topo">
 	<p style="text-indent:30px">
-	<font size="5">
-	Voltar para o topo </font> 
+	Voltar para o topo
 	</p>
 	</a>
-	
+</footer>
+
 </body>
 
 
