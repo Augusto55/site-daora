@@ -90,10 +90,10 @@ div a h1 {
 }
 
 .texto_form {
-	position: relative;
-	padding: 15px 10px 15px 45px;
+	position: absolute;
+	padding: 15px 10px 15px 10px;
 	width: 600px;
-	left: 210px;
+	left: 370px;
 	text-align: center;
 	color: white;
 	margin-bottom: -300px;
